@@ -90,7 +90,7 @@ h1,h2,h3{ font-family: var(--font-display); font-weight: 600; margin:0; }
 }
 
 /* =========================================================
-   HERO â€” VIP ACCESS PASS
+   HERO — VIP ACCESS PASS
 ========================================================= */
 .hero{
   padding: 4.5rem 1.5rem 3rem;
@@ -128,7 +128,7 @@ h1,h2,h3{ font-family: var(--font-display); font-weight: 600; margin:0; }
 }
 .hero__points li{ position:relative; padding-left: 1.2rem; }
 .hero__points li::before{
-  content:"â—†"; position:absolute; left:0; top:0; color: var(--signal); font-size:.7rem; line-height:1.6;
+  content:"◆"; position:absolute; left:0; top:0; color: var(--signal); font-size:.7rem; line-height:1.6;
 }
 
 .hero__note{ margin-top: 1rem; font-size:.85rem; color: var(--text-muted); }

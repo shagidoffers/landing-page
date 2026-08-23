@@ -1,204 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Exclusive Offers & Rewards</title>
-
-  <meta name="description"
-        content="Discover exclusive offers, rewards and special opportunities.">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      min-height: 100vh;
-      background: linear-gradient(135deg, #eef4ff, #ffffff);
-      color: #172033;
-    }
-
-    .container {
-      width: 92%;
-      max-width: 480px;
-      margin: auto;
-      padding: 25px 0;
-    }
-
-    .card {
-      background: white;
-      border-radius: 24px;
-      padding: 30px 22px;
-      text-align: center;
-      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
-    }
-
-    .logo {
-      width: 70px;
-      height: 70px;
-      margin: auto;
-      border-radius: 50%;
-      background: linear-gradient(135deg, #5865f2, #7c3aed);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 32px;
-      font-weight: bold;
-    }
-
-    h1 {
-      font-size: 28px;
-      margin-top: 20px;
-      line-height: 1.2;
-    }
-
-    .subtitle {
-      margin-top: 12px;
-      color: #667085;
-      font-size: 16px;
-      line-height: 1.6;
-    }
-
-    .offer {
-      margin: 25px 0;
-      padding: 18px;
-      border-radius: 16px;
-      background: #f5f7ff;
-      border: 1px solid #e3e7ff;
-    }
-
-    .offer strong {
-      display: block;
-      font-size: 19px;
-      margin-bottom: 7px;
-    }
-
-    .offer span {
-      color: #667085;
-      font-size: 14px;
-    }
-
-    .button {
-      display: block;
-      width: 100%;
-      padding: 17px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, #5865f2, #7c3aed);
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      box-shadow: 0 8px 20px rgba(88,101,242,0.25);
-      transition: 0.2s;
-    }
-
-    .button:active {
-      transform: scale(0.97);
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-top: 25px;
-    }
-
-    .feature {
-      padding: 12px 5px;
-      border-radius: 12px;
-      background: #fafafa;
-      font-size: 12px;
-      color: #555;
-    }
-
-    .feature b {
-      display: block;
-      font-size: 20px;
-      margin-bottom: 5px;
-    }
-
-    .note {
-      margin-top: 22px;
-      font-size: 12px;
-      color: #8a8f98;
-      line-height: 1.5;
-    }
-
-    .footer {
-      margin-top: 20px;
-      font-size: 12px;
-      color: #9aa0aa;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AuroraBuds Pro — এক্সক্লুসিভ প্রি-লঞ্চ অফার</title>
+<meta name="description" content="মাত্র ৪৮ ঘন্টার জন্য AuroraBuds Pro এর উপর ৪০% এক্সক্লুসিভ ছাড়। প্রথম ৫০০ জন সদস্যের জন্য।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>[data-reveal]{opacity:1 !important; transform:none !important;}</style></noscript>
 </head>
-
 <body>
 
-  <div class="container">
+<div class="grain"></div>
 
-    <div class="card">
+<!-- ============ TOP BAR ============ -->
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="brand">
+      <span class="brand__mark">AU</span>
+      <span class="brand__name">AuroraBuds</span>
+    </div>
+    <div class="topbar__badge">
+      <span class="dot dot--live"></span>
+      <span id="viewerCount">218</span> জন এখন এই অফার দেখছেন
+    </div>
+  </div>
+</header>
 
-      <div class="logo">★</div>
+<main>
 
-      <h1>Discover Exclusive Offers</h1>
+  <!-- ============ HERO — VIP ACCESS PASS ============ -->
+  <section class="hero" id="hero">
+    <div class="pass" data-reveal>
 
-      <p class="subtitle">
-        Explore selected offers and opportunities available for eligible users.
-      </p>
+      <div class="pass__main">
+        <p class="eyebrow">মেম্বারস-ওনলি ড্রপ · সংখ্যা সীমিত</p>
+        <h1 class="headline">
+          শুধু আপনার জন্য<br>
+          <span class="headline__accent">এক্সক্লুসিভ ৪০% ছাড়</span>
+        </h1>
+        <p class="sub">
+          AuroraBuds Pro — নতুন জেনারেশনের নয়েজ-আইসোলেটিং ইয়ারবাডস।
+          প্রথম ৫০০ জন ভিআইপি সদস্যের জন্য বিশেষ প্রি-লঞ্চ প্রাইস, তারপর দাম আর ফিরবে না।
+        </p>
 
-      <div class="offer">
-        <strong>🎁 Special Opportunity</strong>
-        <span>
-          Click below to learn more and check your eligibility.
-        </span>
+        <ul class="hero__points">
+          <li>৪২ ঘন্টা ব্যাটারি ব্যাকআপ (কেসসহ)</li>
+          <li>অ্যাক্টিভ নয়েজ ক্যান্সেলেশন</li>
+          <li>IPX5 ওয়াটার রেজিস্ট্যান্ট</li>
+        </ul>
+
+        <a href="#claim" class="btn btn--primary btn--pulse">এখনই অফার দাবি করুন →</a>
+        <p class="hero__note">স্টক বাকি আছে মাত্র <strong id="stockLeft">37</strong> পিস</p>
       </div>
 
-      <!-- CPA OFFER LINK -->
-      <a
-        class="button"
-        href="YOUR_CPA_LINK_HERE"
-        target="_blank"
-        rel="nofollow sponsored noopener">
-        GET STARTED →
-      </a>
+      <div class="pass__stub">
+        <div class="perforation" aria-hidden="true"></div>
+        <p class="stub__label">অফার শেষ হবে</p>
 
-      <div class="features">
-
-        <div class="feature">
-          <b>🔒</b>
-          Secure
+        <div class="countdown" id="countdown">
+          <div class="countdown__unit">
+            <span class="countdown__num" id="cdHours">48</span>
+            <span class="countdown__label">ঘন্টা</span>
+          </div>
+          <span class="countdown__sep">:</span>
+          <div class="countdown__unit">
+            <span class="countdown__num" id="cdMinutes">00</span>
+            <span class="countdown__label">মিনিট</span>
+          </div>
+          <span class="countdown__sep">:</span>
+          <div class="countdown__unit">
+            <span class="countdown__num" id="cdSeconds">00</span>
+            <span class="countdown__label">সেকেন্ড</span>
+          </div>
         </div>
 
-        <div class="feature">
-          <b>⚡</b>
-          Fast
+        <div class="stamp" aria-hidden="true">
+          <span>VIP<br>ACCESS</span>
         </div>
 
-        <div class="feature">
-          <b>✓</b>
-          Simple
-        </div>
-
-      </div>
-
-      <p class="note">
-        Availability and eligibility may vary. Please review the offer
-        details before proceeding.
-      </p>
-
-      <div class="footer">
-        © 2026 Exclusive Offers
+        <p class="stub__code">CODE&nbsp;<span>AURORA-VIP26</span></p>
       </div>
 
     </div>
+  </section>
 
+  <!-- ============ PRODUCT SHOWCASE ============ -->
+  <section class="showcase" data-reveal>
+    <div class="showcase__visual" aria-hidden="true">
+      <div class="orb orb--1"></div>
+      <div class="orb orb--2"></div>
+      <div class="bud bud--left"></div>
+      <div class="bud bud--right"></div>
+      <div class="case"></div>
+    </div>
+    <div class="showcase__text">
+      <p class="eyebrow">প্রোডাক্ট</p>
+      <h2>ডিজাইন করা হয়েছে সাইলেন্স আর সাউন্ড, দুটোর জন্যই</h2>
+      <div class="specs">
+        <div class="specs__row"><span>ব্যাটারি</span><span>৪২ ঘন্টা (কেসসহ)</span></div>
+        <div class="specs__row"><span>ANC</span><span>-32dB পর্যন্ত</span></div>
+        <div class="specs__row"><span>রেজিস্ট্যান্স</span><span>IPX5</span></div>
+        <div class="specs__row"><span>ওয়ারেন্টি</span><span>১২ মাস</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="features" data-reveal>
+    <p class="eyebrow eyebrow--center">কেন এখনই নেবেন</p>
+    <div class="features__grid">
+      <article class="feature-card">
+        <span class="feature-card__icon">%</span>
+        <h3>৪০% এক্সক্লুসিভ ছাড়</h3>
+        <p>নরমাল লঞ্চ প্রাইসের চেয়ে অনেক কম দাম, শুধু এই ভিআইপি লিস্টের জন্য বরাদ্দ।</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-card__icon">⚡</span>
+        <h3>ফ্রি হোম ডেলিভারি</h3>
+        <p>সারাদেশে ২৪–৪৮ ঘন্টার মধ্যে পৌঁছে যাবে আপনার ঠিকানায়, কোনো চার্জ ছাড়াই।</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-card__icon">◆</span>
+        <h3>সীমিত স্টক — ৫০০ পিস</h3>
+        <p>এই ব্যাচে মাত্র ৫০০ পিস তৈরি হয়েছে। শেষ হয়ে গেলে পরের রিস্টক পর্যন্ত অপেক্ষা করতে হবে।</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS (marquee) ============ -->
+  <section class="testimonials" data-reveal>
+    <div class="marquee">
+      <div class="marquee__track" id="marqueeTrack">
+        <span class="quote">"সাউন্ড কোয়ালিটি প্রত্যাশার চেয়ে অনেক ভালো।" — রাফি</span>
+        <span class="quote">"ANC অফ করলে বাইরের শব্দ পুরো ব্লক হয়ে যায়।" — নাদিয়া</span>
+        <span class="quote">"ডেলিভারি ২৪ ঘন্টার মধ্যেই পেয়ে গেছি।" — তানভীর</span>
+        <span class="quote">"এই দামে এমন বিল্ড কোয়ালিটি আশা করিনি।" — মিথিলা</span>
+        <span class="quote">"সাউন্ড কোয়ালিটি প্রত্যাশার চেয়ে অনেক ভালো।" — রাফি</span>
+        <span class="quote">"ANC অফ করলে বাইরের শব্দ পুরো ব্লক হয়ে যায়।" — নাদিয়া</span>
+        <span class="quote">"ডেলিভারি ২৪ ঘন্টার মধ্যেই পেয়ে গেছি।" — তানভীর</span>
+        <span class="quote">"এই দামে এমন বিল্ড কোয়ালিটি আশা করিনি।" — মিথিলা</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLAIM / AJAX FORM ============ -->
+  <section class="claim" id="claim" data-reveal>
+    <div class="claim__card">
+      <p class="eyebrow">শেষ ধাপ</p>
+      <h2>অ্যাক্সেস কোড পেতে ইমেইল দিন</h2>
+      <p class="claim__sub">ইমেইল সাবমিট করলেই আপনার VIP অ্যাক্সেস কোড আর চেকআউট লিংক পাঠিয়ে দেওয়া হবে।</p>
+
+      <form id="claimForm" class="claim__form" novalidate>
+        <div class="field">
+          <input type="email" id="emailInput" name="email" placeholder="আপনার ইমেইল ঠিকানা" required>
+          <button type="submit" class="btn btn--primary" id="submitBtn">
+            <span class="btn__text">কোড পাঠান</span>
+            <span class="btn__spinner" aria-hidden="true"></span>
+          </button>
+        </div>
+        <p class="field__error" id="formError" role="alert"></p>
+      </form>
+
+      <div class="claim__success" id="claimSuccess" hidden>
+        <div class="check">✓</div>
+        <p>ধন্যবাদ! আপনার অ্যাক্সেস কোড ইমেইলে পাঠানো হয়েছে।</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="brand brand--footer">
+      <span class="brand__mark">AU</span>
+      <span class="brand__name">AuroraBuds</span>
+    </div>
+    <p>© 2026 AuroraBuds. এই পেজটি একটি ডেমো এক্সক্লুসিভ-অফার ল্যান্ডিং পেজ।</p>
   </div>
+</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
